@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de login</title>
+    <script src="Question4.js" defer></script>
+
+    <style>
+
+        *{margin: 0;
+        padding: 0;}
+
+        #container{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            margin: 5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        input{
+            border: none;
+            box-shadow: none;
+            font-size: 20px;
+
+
+    
+      
+        }
+
+
+        :focus{
+            ox-shadow: none;
+            outline: 0;
+
+    }
+
+    .butao{
+        
+    }
+
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Fazer Login</h1>
+
+<br><br>
+
+    <form action="">
+
+    <label for="login">Login</label>
+    <br>
+    <input  type="email" name="email" id="email" >
+
+<br><br>
+
+    <label for="senha">Senha</label>
+    <br>
+    <input type="password" name="senha" id="senha">
+
+<br><br>
+
+     <center>
+        <input class="butao" type="button" value="validar" onclick="validar()">
+    </center>
+    </form>
+
+    <p id="resultado"></p>
+</div>
+
+</body>
+</html>
